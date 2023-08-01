@@ -15,7 +15,7 @@ function Stat({ logo, bgColor, color, statName, note }: StatInterface) {
             <div className="flex flex-row">
                 <img
                     className="px-2"
-                    src={`src/assets/${logo}.svg`}
+                    src={`/src/assets/${logo}.svg`}
                     alt={logo}
                 />
                 <img src="/vite.svg" alt="t" />
