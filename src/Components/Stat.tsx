@@ -18,6 +18,7 @@ function Stat({ logo, bgColor, color, statName, note }: StatInterface) {
                     src={`src/assets/${logo}.svg`}
                     alt={logo}
                 />
+                <img src="/vite.svg" alt="t" />
                 <h3 style={{ color: color }} className="font-bold">
                     {statName}
                 </h3>
