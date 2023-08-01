@@ -15,7 +15,7 @@ function Stat({ logo, bgColor, color, statName, note }: StatInterface) {
             <div className="flex flex-row">
                 <img
                     className="px-2"
-                    src={`results-summary-component-main/results-summary-component-main/assets/images/${logo}.svg`}
+                    src={`src/assets/${logo}.svg`}
                     alt={logo}
                 />
                 <h3 style={{ color: color }} className="font-bold">
