@@ -1,6 +1,9 @@
 function Result() {
     return (
-        <div className="flex flex-col  items-center justify-around rounded-b-2xl bg-gradient-to-br from-primary-Light-slate-blue to-primary-Light-roya-blue p-5 xs:h-full xs:w-1/2 xs:rounded-2xl xs:px-8 xs:py-9">
+        <div
+            role="result"
+            className="flex flex-col  items-center justify-around rounded-b-2xl bg-gradient-to-br from-primary-Light-slate-blue to-primary-Light-roya-blue p-5 xs:h-full xs:w-1/2 xs:rounded-2xl xs:px-8 xs:py-9"
+        >
             <h3 className="py-5 text-xl font-bold text-primary-Light-lavender xs:py-0 xs:text-3xl">
                 Your Result
             </h3>

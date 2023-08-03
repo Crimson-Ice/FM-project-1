@@ -2,7 +2,10 @@ import Stat from "./Stat";
 
 function Summary() {
     return (
-        <div className="flex h-full w-full flex-col p-8 xs:w-1/2 xs:px-10 xs:py-14">
+        <div
+            role="summary"
+            className="flex h-full w-full flex-col p-8 xs:w-1/2 xs:px-10 xs:py-14"
+        >
             <h3 className="text-3xl font-bold">Summary</h3>
             <div className="flex h-[300px] flex-col justify-evenly xs:h-full">
                 <Stat
